@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
+.navbar {
+    width: 100vw;
+}
+.carousel {
+    opacity: 50%;
+}
+.texto {
+    position: absolute;
+    text-indent: 2em;
+    margin: 2em;
+}
+.card {
+    position: absolute;
+    z-index: 9999;
+    align-self: center;
+    margin-left: 35em;
+}
+  
+    

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -28,21 +29,49 @@
       </nav>
     
     <!--photos Carousel-->
-
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+      <div class="content">
+        <div class="texto">
+          <h1>Pusheen Cat Coffee</h1>
+          <hr>
+          <p>Bienvenidos al primer Pusheen Cat Coffee de Valencia. En nuestro local podrás disfrutar de nuestros famosos cupcakes, nuestros gofres, y nuestros cafés sintiéndote en una atmósfera totalmente novedosa que te absorverá y te trasladará a un mundo totalmente distinto. 
+          También podrás visitar nuestro espacio gatuno, donde alojamos a una pequeña colonia de gatitos que buscan hogar y buena compañía. Además de irte con un buen sabor de boca, ¡también podrás hacer amigos peludos e incluso plantearte aumentar la familia con uno de ellos!</p>
+          <p>Nuestro proyecto comenzó en Madrid hace 3 años, donde fuimos creciendo poco a poco. Desde entonces hemos abierto locales en Zaragoza, Barcelona, Bilbao y finalmente...¡Valencia!</p>
+          <p>Estamos muy ilusionados de seguir haciendo grande nuestro sueño, y esperamos verte pronto.</p>
+          <p>Antes de venir, te recomendamos que reserves para tu visita, ya que no queremos que nadie se quede con las ganas de entrar. Pásate por nuestra página de contacto (que encontrarás más arriba) y estaremos encantados de atenderte.</p>
+          <!--Card-->
+          <div class="card" style="width: 18rem;">
+            <img class="gatito" src="img/gatito.jpg" class="card-img-top" alt="gatito">
+            <div class="card-body">
+              <h5 class="card-title">Adopta!</h5>
+              <p class="card-text">En nuestro espacio gatuno hay muchos peludos esperando un hogar. Puedes echar un vistazo a la asociación con la que colaboramos, donde verás a nuestros integrantes y muchos más y...¡quizás te enamores de alguno de ellos!</p>
+              <a href="https://www.ohanarescatesyadopciones.es/adopta-un-gato/" class="btn btn-primary">Ir a Ohana</a>
+            </div>
           </div>
         </div>
+        <!--Carousel-->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/pusheen.jpg" class="d-block w-100" alt="pusheen">
+            </div>
+            <div class="carousel-item">
+              <img src="img/entrada.jpg" class="d-block w-100" alt="entrada">
+            </div>
+            <div class="carousel-item">
+              <img src="img/mocha.jpg" class="d-block w-100" alt="mocha">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
