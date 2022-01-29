@@ -9,10 +9,15 @@ body {
     text-indent: 2em;
     margin: 1em;
 }
-.content-fluid {
+.content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-    
+
+.card-body {
+    width: 10em;
+}
+
+
