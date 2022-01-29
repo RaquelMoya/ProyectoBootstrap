@@ -3,21 +3,16 @@ body {
     width: 100vw;
 }
 .navbar {
-    width: 100vw;
-}
-.carousel {
-    opacity: 50%;
+   width: 100vw; 
 }
 .texto {
-    position: absolute;
     text-indent: 2em;
-    margin: 2em;
+    margin: 1em;
 }
-.card {
-    position: absolute;
-    z-index: 9999;
-    align-self: center;
-    margin-left: 35em;
+.content-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-  
     
