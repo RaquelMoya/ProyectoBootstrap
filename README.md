@@ -8,7 +8,7 @@
 <hr>
 
 ### About the proyect
-This proyect is a design of a web page made with Bootstrap. 
+This proyect is a design of a web page made with Bootstrap. </br>
 <img src="img/homemov.png" width="90em"/></br>
 That's the "Home" page, which contains a nav bar with links to the other 2 pages. </br>
 <img src="img/cartamov.png" width="90em"/></br>
