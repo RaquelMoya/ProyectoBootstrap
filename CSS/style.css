@@ -15,9 +15,8 @@ body {
     justify-content: center;
     flex-direction: column;
 }
-
-.card-body {
-    width: 10em;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-
